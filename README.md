@@ -14,8 +14,7 @@
 
 ## SPECIAL THANKS TO:
 	* bang Hasan HS (bot Telegram)
-	* Khalid Insan Tauhid (samehadaku class)
-	* SGB TEAM REBORN
+	* Khalid Insan Tauhid (Samehadaku class)
 	* SAMEHADAKU.TV
  <br/>
  
