@@ -107,7 +107,7 @@ file_put_contents("anime.txt", $slug);
 
 while (true) {
     cek();
-    sleep(600); //jgn diubah lur 
+    sleep(900); //jgn diubah lur 
 }
     
 ?>
