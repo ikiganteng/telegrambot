@@ -51,7 +51,7 @@ $post_fields = array('caption'   => $text,
     curl_close($ch);
 }
 
-function SendReply($chatid, $text)
+function sendMessage($chatid, $text)
 {
     global $debug;
     $data = array(
@@ -96,10 +96,10 @@ $filenya = ".jpg";
               $file = fopen($dir . '/' . $namaExp,"w");
               fwrite($file, $bacaExp);
               fclose($file);
-$result = SendReply($chatId, 'Ada Anime baru');
+$result = sendMessage($chatId, 'Ada Anime baru');
 $result = SendPhoto('https://www.samehadaku.tv/'.$slug, $chatId, $filename);
-$result = SendReply($chatId, 'Judul : '.$judul);
-$result = SendReply($chatId, 'Release : '.$relase);
+$result = sendMessage($chatId, 'Judul : '.$judul);
+$result = sendMessage($chatId, 'Release : '.$relase);
 echo '+';
 file_put_contents("anime.txt", $slug);
 				}
