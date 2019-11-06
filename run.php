@@ -76,7 +76,7 @@ if (strlen($TOKEN)<20)
 
 function cek(){
 $sm = new samehadakuClass();
-$chatId = 'isi chatid'; // ganti dengan id bot chat anda
+$chatId = 'isi chatId'; // ganti dengan chatId bot anda
 $animes = $sm->getNewestAnime(1);
 $judul = $animes[0]['title'];
 $relase = $animes[0]['update'];
