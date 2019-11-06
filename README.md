@@ -8,8 +8,8 @@
 	* untuk mendapatkan chatId buat grup/channel yg beranggotakan akun anda dan bot anda
 	* buka https://api.telegram.org/bot<Token bot anda>/getUpdates dan cari chatId grup/channel anda
 	* edit file run.php sesuai bot anda (Token dan chatId)
-	* jalankan file run.php (rekomended VPS/RDP)
-  * enjoy it!
+	* jalankan file run.php (recommended VPS/RDP)
+  	* enjoy it!
 <br/>
 
 ## SPECIAL THANKS TO:
